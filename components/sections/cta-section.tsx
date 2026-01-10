@@ -19,10 +19,12 @@ export function CTASection() {
   }
 
   return (
-    <section id="cta" className="relative py-20 md:py-32 bg-background overflow-hidden">
+    <section id="cta" className="relative py-20 md:pt-32 md:pb-48 bg-background overflow-hidden">
       {/* Glowing orbs */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl z-0" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl z-0" />
+      <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-2xl z-0" />
+      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-primary/10 rounded-full blur-2xl z-0" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-primary/10 rounded-full blur-3xl z-0 opacity-50" />
+      <div className="absolute -bottom-24 left-1/2 -translate-x-1/2 w-[60%] h-64 bg-primary/20 rounded-[100%] blur-[100px] z-0 opacity-40" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="max-w-3xl mx-auto text-center">
@@ -35,7 +37,7 @@ export function CTASection() {
           </h2>
 
           <p className="text-muted-foreground mb-8 text-pretty">
-            Techzaz EDR is currently in Development. Join the waitlist to be among the first to experience
+            Techzaz EDR is currently in development. Stay updated with the latest updates and be among the first to access
             enterprise-grade endpoint protection.
           </p>
 
@@ -58,7 +60,7 @@ export function CTASection() {
                 type="submit"
                 className="bg-primary text-primary-foreground hover:bg-primary/90 gap-2 whitespace-nowrap"
               >
-                Join Waitlist
+                Stay Updated
                 <ArrowRight className="h-4 w-4" />
               </Button>
             </form>

@@ -12,6 +12,8 @@ export function HeroSection() {
         </video>
         {/* Dark overlay for readability */}
         <div className="absolute inset-0 bg-background/85" />
+        {/* Gradient fade to next section */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
       </div>
 
       {/* Background grid pattern */}
@@ -27,7 +29,7 @@ export function HeroSection() {
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">
             Protect
-            <span className="text-primary"> Endpoints.</span>
+            <span className="text-primary"> Endpoints</span>.
             <br />
             Detect Threats in Real Time.
           </h1>

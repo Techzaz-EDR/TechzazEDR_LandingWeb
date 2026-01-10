@@ -45,7 +45,7 @@ const securityMeasures = [
 
 export function SecuritySection() {
   return (
-    <section id="security" className="py-20 md:py-32 bg-white/5">
+    <section id="security" className="pt-10 pb-20 md:pt-16 md:pb-32 bg-gradient-to-b from-background to-[#1a0533]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -61,7 +61,7 @@ export function SecuritySection() {
           {securityMeasures.map((measure, index) => (
             <div
               key={index}
-              className="p-6 rounded-[30px] bg-card border border-border hover:border-primary/50 transition-all group"
+              className="p-6 rounded-[30px] bg-card border border-border hover:border-primary transition-all duration-300 group"
             >
               <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                 <measure.icon className="h-5 w-5 text-primary" />

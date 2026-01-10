@@ -1,6 +1,6 @@
 export function AboutSection() {
     return (
-        <section id="about" className="py-20 md:py-32">
+        <section id="about" className="pt-20 pb-10 md:pt-32 md:pb-12 bg-gradient-to-b from-background to-[#1a0533]">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                     About <span className="text-primary">Techzaz EDR</span>

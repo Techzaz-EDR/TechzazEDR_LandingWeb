@@ -8,13 +8,13 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/75 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-2">
+          <a href="#home" className="flex items-center gap-2">
             <Shield className="h-8 w-8 text-primary" />
             <span className="text-xl font-bold text-foreground">Techzaz EDR</span>
-          </div>
+          </a>
 
           <div className="hidden md:flex items-center gap-8">
             <nav className="flex items-center gap-8">
@@ -32,7 +32,7 @@ export function Header() {
               </a>
             </nav>
             <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="#cta">Join Waitlist</a>
+              <a href="#cta">Stay Updated</a>
             </Button>
           </div>
 
@@ -57,7 +57,7 @@ export function Header() {
                 Team
               </a>
               <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90 w-full">
-                <a href="#cta">Join Waitlist</a>
+                <a href="#cta">Stay Updated</a>
               </Button>
             </nav>
           </div>

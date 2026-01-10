@@ -7,20 +7,20 @@ export function SurveySection() {
     return (
         <section className="relative py-20 bg-white/5 overflow-hidden">
             {/* Glowing orbs */}
-            <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl z-0" />
-            <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl z-0" />
+            {/* Unified glowing background */}
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#A855F7]/80 via-[#A855F7]/25 to-transparent z-0" />
 
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
                 <div className="max-w-3xl mx-auto text-center">
-                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-8">
+                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6">
                         <MessageSquare className="h-8 w-8 text-primary" />
                     </div>
 
-                    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
                         Help Us <span className="text-primary">Build Better</span>
                     </h2>
 
-                    <p className="text-muted-foreground mb-8 text-pretty">
+                    <p className="text-muted-foreground mb-6 text-pretty">
                         We want Techzaz EDR to be the perfect security solution for you. Take our short survey and tell us what
                         features you want most.
                     </p>
