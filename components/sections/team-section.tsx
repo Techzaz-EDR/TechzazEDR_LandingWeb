@@ -25,7 +25,7 @@ const team = [
         avatar: "Isabella",
         bgColor: "bg-primary/10",
         collection: "lorelei",
-        linkedin: "#",
+        linkedin: "#team",
         github: "https://github.com/rkavya0813-wq",
     },
     {
@@ -43,16 +43,16 @@ const team = [
         avatar: "Sophia",
         bgColor: "bg-primary/10",
         collection: "lorelei",
-        linkedin: "#",
+        linkedin: "#team",
         github: "https://github.com/TharukiJ",
     },
     {
-        name: "Yeheni Alvis",
+        name: "Yeheni Alwis",
         role: "QA & Validation Lead",
         avatar: "Victoria",
         bgColor: "bg-primary/10",
         collection: "lorelei",
-        linkedin: "#",
+        linkedin: "#team",
         github: "https://github.com/Yeheni-Bit",
     },
 ]
