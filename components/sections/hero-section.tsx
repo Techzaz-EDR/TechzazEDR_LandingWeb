@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   return (
-    <section id="home" className="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden min-h-screen flex items-center">
+    <section id="home" className="relative pt-36 pb-20 md:pt-44 md:pb-32 overflow-hidden min-h-screen flex items-center">
       <div className="absolute inset-0 z-0">
         <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover">
           <source src="/videos/hero-background.mp4" type="video/mp4" />
