@@ -32,7 +32,7 @@ export function Header() {
               </a>
             </nav>
             <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="#cta">Stay Updated</a>
+              <a href="https://techzazedrdashboard-frontend-production.up.railway.app/">View Dashboard</a>
             </Button>
           </div>
 
@@ -57,7 +57,7 @@ export function Header() {
                 Team
               </a>
               <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90 w-full">
-                <a href="#cta">Stay Updated</a>
+                <a href="https://techzazedrdashboard-frontend-production.up.railway.app/">View Dashboard</a>
               </Button>
             </nav>
           </div>
