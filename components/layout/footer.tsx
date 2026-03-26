@@ -1,4 +1,5 @@
-import { Shield, Github } from "lucide-react"
+import { Github } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -7,8 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">
             <a href="#home" className="flex items-center gap-2 mb-4">
-              <Shield className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-foreground">Techzaz EDR</span>
+              <Image src="/logo.png" alt="Techzaz EDR Logo" width={180} height={100} />
             </a>
             <p className="text-muted-foreground mb-4 max-w-sm text-pretty">
               Cloud-hosted Endpoint Detection and Response platform designed to protect your infrastructure from modern

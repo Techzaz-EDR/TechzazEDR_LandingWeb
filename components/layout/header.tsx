@@ -1,8 +1,9 @@
 "use client"
 
 import { useState } from "react"
-import { Shield, Menu, X } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -12,8 +13,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#home" className="flex items-center gap-2">
-            <Shield className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">Techzaz EDR</span>
+            <Image src="/logo.png" alt="Techzaz EDR Logo" width={180} height={100} />
           </a>
 
           <div className="hidden md:flex items-center gap-8">
@@ -31,7 +31,7 @@ export function Header() {
                 Team
               </a>
             </nav>
-            <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
+            <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
               <a href="https://techzazedrdashboard-frontend-production.up.railway.app/">Try Now</a>
             </Button>
           </div>
@@ -56,7 +56,7 @@ export function Header() {
               <a href="#team" className="text-muted-foreground hover:text-foreground transition-colors">
                 Team
               </a>
-              <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90 w-full">
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
                 <a href="https://techzazedrdashboard-frontend-production.up.railway.app/">Try TechzazEDR</a>
               </Button>
             </nav>
