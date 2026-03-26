@@ -32,7 +32,7 @@ export function Header() {
               </a>
             </nav>
             <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="https://techzazedrdashboard-frontend-production.up.railway.app/">Try TechzazEDR</a>
+              <a href="https://techzazedrdashboard-frontend-production.up.railway.app/">Try Now</a>
             </Button>
           </div>
 
